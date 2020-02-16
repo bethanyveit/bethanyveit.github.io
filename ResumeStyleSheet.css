@@ -1,0 +1,27 @@
+p {
+ font-family: inherit
+}
+
+h1 {
+ font-size: 40px;
+ color: #000031; 
+ text-align: center;
+}
+
+h2{
+ font-family: inherit;
+ font-size: 30px;
+ color: #000031;
+}
+
+body {
+ background-color: #ffffe0;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
