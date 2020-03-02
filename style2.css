@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Poiret+One&display=swap');
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background: white;
+    padding: .75%;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+h1 {
+    font-family: 'Lora';
+    background-color: #f8b195;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding: 3;
+}
+
+h2 {
+    font-family: 'Lora';
+    background-color: #c06c84;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lora';
+    color: #6C5B7B;
+    font-size: 25px;
+    margin: 2%;
+}
+p {
+ font-family: 'Lora';
+    color: #6C5B7B;
+    font-size: 15px;
+    margin: 2%;
+}
+
+Li {
+    color: #355c7d;
+}
