@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #F5DCD8;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #515459;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a{
+    color: #ededef;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    transition: .8s ease;
+    margin-left: 10%;
+    float: left;
+    margin-right: 2%;
+}
+
+.author {
+    grid-area: author;
+    align-content: left;
+    padding-top: 40px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #515459;
+    font-size: 6vw;
+    margin-top: 90px;
+}
+
+h2 {
+    text-align: center;
+    color: #515459;
+    font-size: 3vw;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #B2A8A6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    font-size: 2vw;
+}
+
+h4 {
+    color: #E5D1C3;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    font-size: 1.7vw;
+}
+
+h5 {
+    color: #E5D1C3;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+
+h6 {
+    color: #F5DCD8;
+    font-size: 1.5vw;
+}
+
+p {
+    color: #515459;
+    text-align: left;
+    font-size: 1.5vw;
+    /*font-size: large;*/
+    position: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: .5%;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 0;
+    padding-left: 40px;
+    color: #515459;
+    font-size: 1.5vw;
+}
+
+.screenshots {
+    align-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: #B8D1C2;
+    color: #515459;
+    margin-top: 5%;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+}
