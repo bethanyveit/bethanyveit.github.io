@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #F8f8ff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5vh;
+    background-color: #253d5b;
+    padding: 3px;
+    padding-top: 12px;
+    font-family: serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a{
+    color: #ededef;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 1.5vw;
+}
+
+h1 {
+    text-align: center;
+    color: #253d5b;
+    font-size: 6vw;
+    margin-top: 15px;
+    font-family: 'DM Serif Display', serif;
+    font-style: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #c9a959;
+    font-size: 4vw;
+    margin-top: -30px;
+    font-family: 'DM Serif Display', serif;
+}
+
+h3 {
+    text-align: center;
+    color: #c9a959;
+    font-size: 4vw;
+    margin-top: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+
+h4 {
+    color: #AC8181;
+    /* margin-left: 5%;*/
+    margin-right: 10%;
+    margin-top: 18px;
+    font-size: 3vw;
+    font-family: 'DM Serif Display', serif;
+}
+
+p {
+    color: #515459;
+    text-align: left;
+    font-size: 1.5vw;
+    /*font-size: large;*/
+    position: auto;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    margin-top: .5%;
+}
+
+
