@@ -153,6 +153,13 @@ h3 {
     margin-left: 12.5vw;
 }
 
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: rgb(59, 61, 64);
+    font-size: 3vw;
+    margin-top: .05vw;
+}
+
 p {
     font-size: large;
     margin-top: 5%;
